@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     // get the reference to the map view
     mMapView = findViewById(R.id.mapView);
-    // create a map with the dark gray canvas basemap
+
     ArcGISMap map = new ArcGISMap(Basemap.createTopographic());
     // set the map to the map view
     mMapView.setMap(map);
